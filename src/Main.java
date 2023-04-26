@@ -30,6 +30,10 @@ public class Main {
         System.out.println(book1.hashCode() == book2.hashCode());
         System.out.println(author1.hashCode() == author2.hashCode());
 
+        Author author3 = new Author("Пушкин", "Александр");
+        System.out.println(author1.equals(author3));
+
+
     }
 
 }
